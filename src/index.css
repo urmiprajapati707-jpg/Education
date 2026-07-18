@@ -6,17 +6,17 @@
   --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
 }
 
-/* Base custom styles to enhance polish */
+
 html {
   scroll-behavior: smooth;
 }
 
-/* Offset scrolling targets so sticky navbar does not overlay headers */
+
 section {
   scroll-margin-top: 80px;
 }
 
-/* Custom minimal scrollbar */
+
 .scrollbar-thin::-webkit-scrollbar {
   height: 6px;
   width: 6px;

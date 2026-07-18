@@ -80,9 +80,7 @@ export default function PricingFAQ() {
     <section id="pricing-faq" className="py-20 bg-slate-50/50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
-        {/* ==========================================
-            PRICING HALF
-            ========================================== */}
+        {/*PRICING HALF */}
         <div className="text-center max-w-3xl mx-auto mb-16 space-y-4">
           <span className="text-xs font-bold uppercase tracking-widest text-indigo-600 block">
             Flexible Plans
@@ -170,7 +168,7 @@ export default function PricingFAQ() {
                     </p>
                   </div>
 
-                  {/* Bullet features list */}
+                  
                   <ul className="space-y-3 pt-6 border-t border-slate-100/10">
                     {tier.features.map((feat) => (
                       <li key={feat.name} className="flex items-start space-x-2.5 text-xs sm:text-sm">
@@ -187,7 +185,7 @@ export default function PricingFAQ() {
                   </ul>
                 </div>
 
-                {/* Call-to-action Button */}
+                
                 <div className="pt-8 mt-6 border-t border-slate-100/10">
                   <button
                     className={`w-full py-3.5 rounded-xl font-bold text-xs sm:text-sm transition-all flex items-center justify-center space-x-2 ${tier.btnStyle}`}
@@ -201,9 +199,7 @@ export default function PricingFAQ() {
           })}
         </div>
 
-        {/* ==========================================
-            FAQ HALF (Matching reference layout exactly)
-            ========================================== */}
+       
         <div className="max-w-7xl mx-auto pt-20 border-t border-slate-200/60">
           
           <div className="grid lg:grid-cols-[1fr_2fr] gap-12 items-start">

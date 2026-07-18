@@ -7,7 +7,7 @@ const CourseCard = ({ course, onEnroll, onCardClick }) => {
       layout
       className="group bg-white rounded-2xl border border-slate-100 overflow-hidden shadow-md hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col h-full"
     >
-      {/* Course Thumbnail Image */}
+      {/*  Image */}
       <div 
         className="relative aspect-video overflow-hidden bg-slate-100 cursor-pointer" 
         onClick={() => onCardClick(course)}
@@ -20,7 +20,7 @@ const CourseCard = ({ course, onEnroll, onCardClick }) => {
         />
       </div>
 
-      {/* Course Card Body */}
+      {/* Course Card  */}
       <div className="p-6 sm:p-8 flex flex-col flex-grow justify-between">
         <div className="space-y-3 mb-6">
           {/* Title */}
@@ -31,13 +31,13 @@ const CourseCard = ({ course, onEnroll, onCardClick }) => {
             {course.title}
           </h3>
 
-          {/* Description */}
+         
           <p className="text-slate-500 text-sm sm:text-base leading-relaxed line-clamp-3">
             {course.description}
           </p>
         </div>
 
-        {/* Action Button */}
+        {/* Button */}
         <button
           onClick={() => onCardClick(course)}
           className="w-full py-3.5 bg-blue-500 hover:bg-blue-600 text-white font-bold text-sm sm:text-base rounded-lg transition-colors text-center cursor-pointer shadow-sm hover:shadow"

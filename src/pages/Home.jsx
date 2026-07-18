@@ -14,21 +14,21 @@ export default function Home() {
   const [activeSection, setActiveSection] = useState('home');
   const [selectedCategory, setSelectedCategory] = useState('');
 
-  // Handle category selected from Category card
+  
   const handleCategorySelect = (category) => {
     setSelectedCategory(category);
-    // Smoothly scroll down to courses syllabus section
+    
     const coursesSection = document.getElementById('courses');
     if (coursesSection) {
       coursesSection.scrollIntoView({ behavior: 'smooth' });
     }
   };
 
-  // Scroll to targeted section ID
+  
   const handleScrollToSection = (sectionId) => {
     const element = document.getElementById(sectionId);
     if (element) {
-      // Add custom offset scrolling
+      
       const offset = 80; // height of navbar
       const bodyRect = document.body.getBoundingClientRect().top;
       const elementRect = element.getBoundingClientRect().top;
@@ -43,7 +43,7 @@ export default function Home() {
     }
   };
 
-  // Intersection Observer to highlight active navbar links dynamically on scroll
+  
   useEffect(() => {
     const sectionIds = ['home', 'courses', 'instructors', 'pricing-faq'];
 
@@ -101,13 +101,13 @@ export default function Home() {
         {/* Professional Instructors Grid */}
         <Instructors />
 
-        {/* Monthly/Annual Subscription Tiers & FAQs */}
+        {/* Subscription Tiers & FAQs */}
         <PricingFAQ />
 
-        {/* Alumni Testimonials Quote Cards */}
+        {/*  Quote Cards */}
         <Testimonials />
 
-        {/* Newsletter Subscription Card Banner */}
+        {/* Subscription Card Banner */}
         <CTA />
       </main>
 

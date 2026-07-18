@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'motion/react';
 
 export default function Categories({ onCategorySelect, selectedCategory }) {
-  // Brand technology logos in grey vector style
+  
   const techLogos = [
     {
       name: 'HTML5',
