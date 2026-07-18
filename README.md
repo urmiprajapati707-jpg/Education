@@ -1,4 +1,4 @@
-# EduPlus - E-Learning Platform
+# Education - E-Learning Platform
 
 A modern and responsive E-Learning Platform built using React, JavaScript, HTML, and CSS.
 
