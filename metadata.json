@@ -1,0 +1,6 @@
+{
+  "name": "Online Courses Platform",
+  "description": "A modern, fully responsive e-learning platform featuring course categories, popular courses, features, pricing, testimonials, and an FAQ section.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
